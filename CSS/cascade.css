@@ -1,0 +1,367 @@
+body{
+    min-height: 100%;
+}
+
+
+.carousel-inner img{
+    background-size: cover;
+}
+.h22{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.navbar{
+    background-color: transparent !important;
+}
+.carousel-item{
+    height: 100vh;
+}
+.iconBrand{
+    width: 100%;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: larger;
+}
+li{
+    list-style:none;
+}
+.social{
+    margin: 8px;
+    align-content: center;
+    color: white;
+    position: relative;
+    align-items: center;
+    top:28%;
+    transition:0.1s ease;
+    
+}
+.tt{
+    background-color:#f1545485;
+}
+.social:hover{
+    color:#F15454;
+}
+.nav-link:hover{
+    color: #F15454 !important;
+}
+.border-bottom .navbar{
+    border-color: gray;
+}
+.About{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.About h2{
+    font-size: 60px;
+    color: rgb(230, 228, 228);
+    font-weight: 700;
+}
+.About .h{
+    position: absolute;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+.h::after{
+    content: "";
+    height: 1px;
+    width: 50%;
+    background-color: black;
+    position: absolute;
+    top: 130%;
+    left: 25%;
+    transition:0.1s ease;
+}
+.h:hover:after{
+    transform: scale(1.2);
+    height: 1px;
+
+}
+.content1::after{
+    content: "\a";
+    white-space: pre;
+}
+.content22{
+    width: 60%;
+}
+.parentOfcontent{
+    width: 90%;
+}
+.content23{
+    width: 40%;
+}
+.progress-heading .progress-value {
+    text-align: right;
+    font-weight: 500;
+}
+.progress-title{
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.progress-value{
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.navbar .navbar-toggle:hover .icon-bar, .btn.btn-default, .portfolio-item .loading, .progress .progress-bar, .dropcap.alt, .highlight, .sticker.default, #zoom-in:hover, #zoom-out:hover {
+    
+    
+    background-color: #f25454;
+}
+.progress{
+    height: 4px;
+}
+.Team{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Team h2{
+    font-size: 60px;
+    color: rgb(207, 207, 207);
+    font-weight: 700;
+}
+.Team .h{
+    position: absolute;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+.firstmem h5{
+    transition: 0.3s all ease;
+}
+.row{
+    margin: 80px;
+}
+.firstmem:hover h5{
+    color: rgb(241, 84, 84);
+    
+}
+.firstmem img{
+    transition: 0.3s all ease;
+}
+.firstmem:hover img{
+    transform: scale(1.2);
+    
+}
+.layer{
+    background-color: rgba(241, 84, 84, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.firstmem:hover .layer{
+    opacity: 1;
+}
+.overflow-hidden , .position-relative{
+    border-radius: 3px;
+    
+}
+.bttn{
+    background-color: #F15454;
+    padding: 15px 30px;
+    border: #F15454;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    color: white;
+}
+.bttn:hover{
+    opacity: 0.8;
+}
+.Services{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Services h2{
+    font-size: 60px;
+    color: rgb(212, 212, 212);
+    font-weight: 700;
+}
+.Services .h{
+    position: absolute;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+.icon{
+    margin-right: 10px;
+    font-size: 35px;
+    color: #F15454;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.serv h3{
+    transition: all ease 0.3s;
+    font-size: medium;
+    align-items: center;
+    margin-top: 4px;
+}
+.serv:hover h3{
+    color: #F15454;
+}
+.fixedButton{
+    width: 32px;
+    height:32px;
+    position: fixed;
+    left: 0;
+    top: 30%;
+    z-index: 1000000000000000000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.previndicator{
+    top: 48%;
+    /* border: solid white 1px; */
+    /* border-left: 0px; */
+    transition: all ease 0.3s;
+}
+.nextindicator{
+    top: 48%;
+    /* border: solid white 1px; */
+    /* border-left: 0; */
+    transition: all ease 0.3s;
+    
+}
+.previndicator:hover{
+    color:#F15454;
+    /* background-color: rgb(255, 255, 255); */
+}
+.nextindicator:hover{
+    color:#F15454;
+    /* background-color: white; */
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+.contact{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact h2{
+    font-size: 60px;
+    color: rgb(216, 215, 215);
+    font-weight: 700;
+}
+.contact .h{
+    position: absolute;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+.address{
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+#contact{
+    background-color: rgb(245, 243, 243);
+}
+input{
+    border: 1px;
+}
+textarea{
+    border:1px;
+}
+.ay7aga h4{
+    transition: all ease 0.3s;
+    font-size: medium;
+}
+.ay7aga:hover h4{
+    color: #F15454;
+}
+.footer h5{
+    color: white;
+}
+.footer p{
+    color: rgb(133, 127, 127);
+}
+
+.footer a{
+    color:rgb(133, 127, 127) ;
+    transition: all ease 0.3s;
+}
+.footer a:hover{
+    color: #F15454;
+}
+
+button.www{
+    padding: 5px 30px;
+}
+.footer button{
+    padding: 5px 15px;
+    margin: 3px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+} 
+.footer button a{
+    text-decoration: none;
+}
+.footer button:hover{
+    border: #F15454 solid 1px;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.aga{
+    padding-bottom: 50px;
+    position: relative;
+}
+footer i{
+    color: white;
+    margin: 20px;
+    transition: all ease 0.3s;
+}
+footer i:hover{
+    color: #F15454;
+}
+.topp{
+    border-radius: 50%;
+    color: white;
+    border: #F15454;
+    position: absolute;
+    bottom: 98%;
+}
+.toppp{
+    color: white;
+}
+/* i don't have the enough time to complete this section  */
+.client{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client h2{
+    font-size: 60px;
+    color: rgb(216, 215, 215);
+    font-weight: 700;
+}
+.client .h{
+    position: absolute;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+.indicate{
+    width:100px;
+    height: 100px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
